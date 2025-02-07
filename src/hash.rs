@@ -1,5 +1,5 @@
 pub trait Hash {
-  fn new( data: &[u8] ) -> Self;
-  fn digest(&self) -> Vec<u8>;
-  fn hexdigest(&self) -> String;
+  pub fn new( data: &[u8] ) -> Self;
+  pub fn digest(&self) -> Vec<u8>;
+  pub fn hexdigest(&self) -> String;
 }
